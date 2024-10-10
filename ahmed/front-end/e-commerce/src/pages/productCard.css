@@ -1,0 +1,115 @@
+/* productCard.css */
+
+/* تنسيق الرئيسي */
+.product-card-main {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.col-lg-6, .col-lg-5 {
+  flex: 1;
+  max-width: auto;
+  padding: 15px;
+}
+
+.product-image {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  width: 55vh;
+}
+
+/* عنوان المنتج */
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+ }
+
+.price {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.details {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* تنسيق خيارات الألوان */
+.color-options {
+  margin-bottom: 15px;
+}
+
+.color-options p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.colors {
+  display: flex;
+  gap: 10px;
+}
+
+.color-swatch {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  cursor: pointer;
+}
+
+/* تنسيق الكمية */
+.quantity-section {
+  margin-bottom: 20px;
+}
+
+.quantity-section label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.quantity-input {
+  width: 60px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+/* تصميم زر Add to Cart */
+.btn {
+  background-color: transparent;
+  color: #000;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 10px;
+  width: 300px;
+}
+
+.btn:hover {
+  background-color: #f79b11;
+  color: #000000;
+}
+

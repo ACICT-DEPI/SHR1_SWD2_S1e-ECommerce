@@ -1,0 +1,131 @@
+.login-container {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #48c6ef, #6f86d6);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  text-align: center;
+  color: white;
+}
+
+.login-form h2 {
+  margin-bottom: 1rem;
+  font-size: 48px;
+}
+
+.input-field {
+  margin-bottom: 1rem;
+  width: 500px;
+  height: 5vh;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-size: 24px;
+  outline: none;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.forgot-password {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+  color: #122da9;
+}
+
+.login-bttn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background-color: #1fb6ff;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-left: 10px;
+}
+
+.login-bttn:hover {
+  background-color: #17a2b8;
+}
+
+.register-link {
+  margin-top: 1rem;
+  color: white;
+  font-size: 18px;
+}
+
+.register-link a {
+  color: #231fff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+ 
+.social-login {
+  display: flex;
+  justify-content: space-between; /* Distributes space evenly between buttons */
+  gap: 5px; /* Adjust the gap between the buttons */
+  margin-top: 1rem;
+  margin: 10px 150px 0px 70px;
+ }
+
+.google-btn img, .facebook-buttn {
+  width: 50px; /* Adjust width to ensure both buttons fit on the same line */
+  border: none;
+  padding: 3px;
+  cursor: pointer;
+  text-align: center;
+  
+ }
+
+.google-btn {
+   color: white;
+   border-radius: 50px;
+}
+
+.facebook-buttn {
+   color: white;
+   width: 60px;
+ }
+
+.google-btn:hover, .facebook-buttn:hover {
+  opacity: 0.9;
+}
+

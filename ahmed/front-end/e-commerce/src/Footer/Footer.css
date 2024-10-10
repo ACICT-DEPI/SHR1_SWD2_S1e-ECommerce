@@ -1,0 +1,164 @@
+.footer {
+    background-color: #0f1f48;
+    color: white;
+    padding: 10px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    margin-left: 100px;
+    }
+  
+ .footer-section p {
+  color: #fff;
+ }
+
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+    text-decoration: none;
+   }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+    color: #f3c40a;
+  }
+  
+  .footer-section .social-icons a {
+    margin-right: 10px;
+    color: white;
+  }
+  .social-icons a img:hover{
+    flex-direction: row;
+    color: #000;
+  }
+  
+  .footer-section .social-icons a:hover {
+    color: #c1680e;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    color: #ffffff;
+  }
+
+  .footer-bottom p {
+    color: #ffffff;
+  }
+  
+  .footer-bottom a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .footer-bottom a:hover {
+    color: #ccc;
+  }
+  
+  .footer-section form input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    border: 5px solid #a48714; /* Green border */
+    border-radius: 50px; /* Makes the search bar rounded */
+    padding: 5px 10px; /* Adds padding inside the input */
+    background-color: white;
+    width: 300px;
+    height: 24px;
+    font-size: 24px;
+  }
+  
+  .footer-section form button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px 30px 50px 10px;
+    font-size: 24px;
+    margin-left: 50%;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 10px;
+  }
+  
+  .footer-section form button:hover {
+    background-color: #ce720f;
+    color: #000;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between; /* توزيع المسافات بين الأيقونات */
+    align-items: center;
+    width: 200px; /* تعديل العرض بناءً على عدد الأيقونات والمسافة */
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #000; /* لون الأيقونات */
+    font-size: 24px; /* حجم الأيقونات */
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #333; /* لون عند التمرير */
+  }
+
+
+
+
+  .fa-linkedin {
+     background-color: #0077b5;
+  }
+  .fa-linkedin:hover {
+    background-color: #efa914;
+  }
+  
+  .fa-instagram {
+    background-color: #d26c14;
+  }
+  .fa-instagram:hover{
+    background-color: #f7c352;
+
+  }
+  
+  .fa-facebook {
+    background-color: #1877f2;
+  }
+  .fa-facebook:hover{
+    background-color: #efa914;
+
+  }
+  
+  .fa-tiktok {
+    background-color: #000000;
+  }
+  .fa-tiktok:hover{
+    background-color: #efa914;
+
+  }
+  
+
+
+  .footer-section .subscribe {
+    margin-right: 100px;
+  }
